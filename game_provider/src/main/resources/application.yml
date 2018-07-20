@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: game_provider
+
+server:
+  port: 8051
+
+eureka:
+  instance:
+    hostname: 192.168.19.77
+    port: 8080
+    instance-id: gameProvider
+    secure-health-check-url: true
+    home-page-url-path: /provider
+    status-page-url-path: /provider_info
+    health-check-url-path: /provider_health
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka/

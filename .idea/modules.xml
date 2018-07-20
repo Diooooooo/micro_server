@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/game_provider/game_provider.iml" filepath="$PROJECT_DIR$/game_provider/game_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/micro_server.iml" filepath="$PROJECT_DIR$/micro_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_center/service-center.iml" filepath="$PROJECT_DIR$/service_center/service-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_customer/service_customer.iml" filepath="$PROJECT_DIR$/service_customer/service_customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service_provider/service_provider.iml" filepath="$PROJECT_DIR$/service_provider/service_provider.iml" />
+    </modules>
+  </component>
+</project>

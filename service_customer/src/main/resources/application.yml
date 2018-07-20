@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: customer
+
+server:
+  port: 8041
+
+eureka:
+  instance:
+    hostname: 192.168.19.77   #注册中心访问地址
+    instance-id: customer     #注册中心别名
+    port: 8080                #自定义字段
+    secure-health-check-url: true
+    home-page-url-path: /
+    status-page-url-path: /info
+    health-check-url-path: /health
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka/
